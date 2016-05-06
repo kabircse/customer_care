@@ -1,0 +1,114 @@
+/*
+ * It is advised not to edit the smartadmin_production.css
+ * as this will override any changes you make in the 
+ * later versions of this theme. 
+ * 
+ * We advise that you use use this CSS to override 
+ * SmartAdmin styles. 
+ * 
+ * Rename the stylesheet to whatever your liking so it will stay
+ * unique to you with each update of SmartAdmin.
+ */
+
+/*
+ * INDEX
+ * 
+ * - HTML
+ * - BODY
+ * - CUSTOM STYLES
+ */
+/*
+ * It is advised not to edit the smartadmin_production.css
+ * as this will override any changes you make in the 
+ * later versions of this theme. 
+ * 
+ * We advise that you use use this CSS to override 
+ * SmartAdmin styles. 
+ * 
+ * Rename the stylesheet to whatever your liking so it will stay
+ * unique to you with each update of SmartAdmin.
+ */
+
+/*
+ * INDEX
+ * 
+ * - HTML
+ * - BODY
+ * - CUSTOM STYLES
+ */
+
+  .margin10{
+    margin: 10px;
+  }
+  
+  .margintb20{
+    margin-top: 20px;
+	margin-bottom: 20px;
+  }
+  
+ .marginbottom10{
+ 	margin-bottom: 10px;
+ }
+
+ .product_form fieldset{
+ 	padding: 0px;
+ }
+
+ .product_form footer{
+ 	background: none; 
+ }
+
+ .initial_payment_info{
+ 	margin-top: 10px;
+ }
+
+.salesreport_nav{
+	position: relative;
+}
+
+.salesreport_nav > li > a{
+	display: block;
+	background-color: #3276b1;
+  	color: #FFFFFF;
+  	text-decoration: none;
+  	padding: 3px;
+  	text-align: center;
+  	border: 5px solid #3276b1;
+}
+
+ .salesreport_nav li ul{
+	display: none;
+	position: absolute;
+	background-color: #FFFFFF;
+	min-width: 150px;
+	right: 0px;
+	border:1px solid #3276b1;
+	z-index: 100;
+ }
+
+  .salesreport_nav li ul li a{
+  	display: block;
+  	text-decoration: none;
+  	padding: 8px 5px;
+  	background-color: #3276b1;
+  	color: #FFFFFF;
+  	border-bottom: 1px solid #FFFFFF;
+  }
+
+  .salesreport_nav li ul li a:last-child{
+  	border-bottom: none;
+  }
+
+  .salesreport_nav li ul li a:hover{
+  	background-color: #FFFFFF;
+  	color: #3276b1;
+  }
+
+ .salesreport_nav li:hover ul{
+	  display: block;
+ }
+
+ .overflow_table{
+    width: 100%;
+    overflow: auto;
+ }
